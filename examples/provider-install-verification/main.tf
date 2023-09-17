@@ -7,3 +7,7 @@ terraform {
 }
 
 provider "discord" {}
+
+data "discord_server" "this" {
+  id = "1148301721953644624"
+}
