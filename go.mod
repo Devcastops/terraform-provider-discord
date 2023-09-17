@@ -1,4 +1,4 @@
-module github.com/hashicorp/terraform-provider-scaffolding-framework
+module terraform-provider-discord
 
 go 1.19
 
