@@ -80,6 +80,7 @@ func (d *ServerDataSource) Configure(ctx context.Context, req datasource.Configu
 }
 
 func (d *ServerDataSource) Read(ctx context.Context, req datasource.ReadRequest, resp *datasource.ReadResponse) {
+	
 	var data ServerDataSourceModel
 
 	// Read Terraform configuration data into the model
