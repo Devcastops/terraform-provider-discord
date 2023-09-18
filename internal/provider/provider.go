@@ -59,7 +59,7 @@ func (p *discordProvider) Configure(ctx context.Context, req provider.ConfigureR
 	if data.AuthenticationToken.IsUnknown() {
 		resp.Diagnostics.AddAttributeError(
 			path.Root("authentication_token"),
-			"Unkown authentication token",
+			"Unknown authentication token",
 			"please provide a valid Discord API token",
 		)
 	}
